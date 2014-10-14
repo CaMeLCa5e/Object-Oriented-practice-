@@ -29,5 +29,14 @@ emp1.displayEmployee()
 emp2.displayEmployee()
 print "Total Employee %d" % Employee.empCount
 
+emp1.age = 7 #adding age function 
+emp1.age = 8 #modify the age 
+del emp.age #delete age
 
-	
+hasatta(empl, 'age') # Returns true if has attr- 
+getattr(empl, 'age') #returns value of age
+setattr(empl, 'age', 8) # set attribute to 8 
+delattr(empl, 'age') #Del attribute age
+
+
+
